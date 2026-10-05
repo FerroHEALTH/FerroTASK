@@ -1,0 +1,27 @@
+/* SPDX-FileCopyrightText: Cadasto B.V. */
+/* SPDX-License-Identifier: BUSL-1.1 */
+/* FerroTASK brand tokens, the "Emerald & Iron" palette. Import this file, or
+   copy the values. The family site copies the two hue values verbatim into
+   its own tokens.css, so a change here is a change there. */
+:root {
+  /* Core palette */
+  --ferrotask-emerald: #065F46;       /* primary mark and accents; text on light */
+  --ferrotask-emerald-light: #34D399; /* the same voice on a dark ground; highlights in the mark */
+  --ferrotask-ink: #0F172A;           /* text on light */
+  --ferrotask-mist: #F1F5F9;          /* text on dark */
+  --ferrotask-tile: #0B1020;          /* dark tile background */
+  --ferrotask-surface: #F8FAFC;       /* light surface background */
+
+  /* Roles */
+  --ferrotask-brand: var(--ferrotask-emerald);
+  --ferrotask-brand-2: var(--ferrotask-emerald-light);
+  --ferrotask-fg: var(--ferrotask-ink);
+  --ferrotask-bg: var(--ferrotask-surface);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ferrotask-brand: var(--ferrotask-emerald-light);
+    --ferrotask-fg: var(--ferrotask-mist);
+    --ferrotask-bg: var(--ferrotask-tile);
+  }
+}
