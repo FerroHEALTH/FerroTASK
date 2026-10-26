@@ -13,6 +13,22 @@ page shows where it sits among the products and what calls what, and this
 repository is where the design and the build happen; the tracker is the
 record of both. Its site will be <https://ferrotask.eu/>.
 
+## Specification status
+
+The openEHR Task Planning (TP) specifications, the core of what FerroTASK
+executes, are published under Creative Commons Attribution-NoDerivatives
+(CC-ND) and have a paused status: the openEHR Software Engineering Committee
+does not maintain or develop them actively at present. On 26 October 2026 the
+openEHR Foundation opened a 30-day community consultation, closing on
+25 November 2026, on moving the TP specifications from CC-ND to the CC0
+public-domain dedication, so that other parties can develop them further
+([Task Planning specification licensing change](https://discourse.openehr.org/t/community-consultation-task-planning-specification-licensing-change/17430)).
+
+The consultation applies to the TP specifications only. FerroTASK implements
+the specifications as published and does not adapt their text, which CC-ND
+permits; the outcome of the consultation decides whether a maintained,
+forked line of TP becomes a second source to follow.
+
 ## Licence
 
 FerroTASK is source-available under the Business Source License 1.1. The
